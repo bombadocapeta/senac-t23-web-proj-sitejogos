@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hyper Liquid</title>
+</head>
+
+<style>
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
+    #img1 {
+        width: 100%;
+        height: 150px;
+    }
+
+    .nav li {
+        display: inline;
+        padding: 110px;
+        font-size: 19px;
+        font-weight: bold;
+
+    }
+
+    a {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        text-decoration: unset;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .card {
+        position: relative;
+    }
+
+    .card>a {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: white;
+        font-size: 23px;
+    }
+
+    .container-images {
+        margin-left: 250px;
+        width: 50%;
+    }
+
+    .container-lançamentos {
+        width: 40%;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .col {
+        float: left;
+    }
+</style>
+
+<body style="background-color:bisque;">
+
+    <div id="div1">
+        <img id="img1" src="./20.jpg" alt="">
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="./trabalho.html">Home</a>
+            </li>
+            <li>
+                <a href="./paginaPC.html">PC</a>
+            </li>
+            <li>
+                <a href="./paginaPS4.html">PS4</a>
+            </li>
+            <li>
+                <a href="./paginaXbox.html">Xbox One</a>
+            </li>
+            <li>
+                <a href="./Top10.html">Top 10 Melhores Games</a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <h2 style="margin-left:250px;font-family: 'Courier New', Courier, monospace">Notícias em Destaque</h2>
+    <br>
+    <div>
+        <div class="col container-images">
+            <div style="border: solid black; width:500px;" class="card">
+                <img style="width:500px;" src="./red.jpg" alt="">
+                <a style="font-weight:bold; word-wrap: break-word;" href="">Red Dead Redemption 2 já está sendo jogado no
+                    PS4!
+                </a>
+            </div>
+            <br>
+            <div style="border: solid black; width:500px;" class="card">
+                <img style="width:500px;" src="./ass.jpg" alt="">
+                <a style="font-weight:bold; word-wrap: break-word;" href="">Assassin's Creed Odyssey: Confira as notas que
+                    o game está recebendo.</a>
+            </div>
+            <br>
+            <div style="border: solid black; width:500px;" class="card">
+                <img style="width:500px;" src="./last.jpg" alt="">
+                <a style="font-weight:bold; word-wrap: break-word;" href="">Playstation Music revela período de lançamento
+                    de The Last of Us: Part 2</a>
+            </div>
+
+        </div>
+
+        <div class="col container-lancamentos">
+            <h2 style="margin-left: 100px;  font-family: 'Courier New', Courier, monospace">Lançamentos</h2>
+            <br>
+            <h3 style="font-family:'Courier New', Courier, monospace">Próximos</h3>
+            <br>
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">Dark Souls Trilogy</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px; ">PS4, Xbox One - 19 de Outubro 2018
+                        </p>
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">Red Dead Redemption 2</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px;">PS4, Xbox One - 26 de Outubro 2018 </p>
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">Diablo 3: Eternal Collection</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px;">Switch - 2 de Novembro 2018 </p>
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">The Walking Dead</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px;">PS4, Xbox One, PC - 8 de Novembro 2018
+                        </p>
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">Spyro Reignited Trilogy</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px;">PS4, Xbox One - 13 de Novembro 2018
+                        </p>
+                </div>
+
+
+            </div>
+            <br>
+
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">Hitman 2</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px;">PS4, Xbox One, PC - 13 de Novembro 2018
+                        </p>
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">Civilization 6</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px;">Switch - 16 de Novembro 2018 </p>
+                </div>
+
+
+            </div>
+
+            <br>
+            <div class="item-lancamento clearfix" style="border: solid black 2px; padding: 10px;">
+
+                <div style="float: left;">
+                    <img src="./20.jpg" style="width: 50px; height: 50px; border-radius: 50%" alt="">
+                </div>
+                <div style="float: left;">
+
+                    <a href="" style="margin-left:10px;">Battlefield 5</a>
+                    <p style="font-weight: bold; color:steelblue; margin-left:10px;">PS4, Xbox One, PC - 20 de Novembro 2018
+                        </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
